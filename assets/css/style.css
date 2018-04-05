@@ -3,6 +3,8 @@
 
 body {
     background: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 
@@ -65,8 +67,44 @@ a:hover {
     margin: 0 auto;
 }
 
+h1 {
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 20px;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: pink;
+}
+
+#message {
+    padding: 100px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
 p {
-    border-top: 2px solid #dddddd;
     line-height: 1.6;
     padding-top: 20px;
     
@@ -75,13 +113,15 @@ p {
 
 h1 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     
 }
 
 img {
-    width:10%;
+    width:130px;
     float:left;
     margin: 20px;
+
 }
 
 footer {
