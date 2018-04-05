@@ -48,6 +48,9 @@ li a {
     margin-bottom: 0;
 }
     
+a:hover {
+    color: red;
+}
 
 
 .container {
