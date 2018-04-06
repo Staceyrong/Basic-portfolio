@@ -124,8 +124,9 @@ h1 {
 
 }
 
+
 img {
-    position: relative;
+
     float: left;
     width:  300px;
     height: 200px;
@@ -135,7 +136,56 @@ img {
     margin: 20px;
 }
 
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
+#first {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 102px;
+}
+
+#second {
+    position: absolute;
+    top: 130px;
+    left: 360px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 123px;
+}
+
+#third {
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 130px;
+}
+
+#fourth {
+    position: absolute;
+    top: 370px;
+    left: 360px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 109px;
+}
+
+#fifth {
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 127px;
+}
 
 
 footer {
