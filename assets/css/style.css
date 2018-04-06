@@ -107,6 +107,7 @@ input[type=text] {
 p {
     line-height: 1.6;
     padding-top: 20px;
+    font-size: 20px;
     
     
 }
@@ -118,7 +119,8 @@ h1 {
 }
 
 #photo {
-    width:130px;
+    width:150px;
+    height:150px;
     float:left;
     margin: 20px;
 
